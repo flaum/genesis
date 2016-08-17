@@ -1,0 +1,167 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-fb {
+    width: 10px;
+    height: 21px;
+    background-position: -20px -20px;
+}
+
+.sprite-icon-fb_hover {
+    width: 10px;
+    height: 20px;
+    background-position: -20px -81px;
+}
+
+.sprite-icon-google {
+    width: 27px;
+    height: 22px;
+    background-position: -20px -141px;
+}
+
+.sprite-icon-google_hover {
+    width: 27px;
+    height: 22px;
+    background-position: -20px -203px;
+}
+
+.sprite-icon-info {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -265px;
+}
+
+.sprite-icon-info_hover {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -330px;
+}
+
+.sprite-icon-linkedin {
+    width: 20px;
+    height: 19px;
+    background-position: -20px -395px;
+}
+
+.sprite-icon-linkedin_hover {
+    width: 20px;
+    height: 19px;
+    background-position: -20px -454px;
+}
+
+.sprite-icon-location {
+    width: 16px;
+    height: 23px;
+    background-position: -20px -513px;
+}
+
+.sprite-icon-location_hover {
+    width: 16px;
+    height: 23px;
+    background-position: -20px -576px;
+}
+
+.sprite-icon-loupe {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -639px;
+}
+
+.sprite-icon-loupe_hover {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -702px;
+}
+
+.sprite-icon-megaphone {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -765px;
+}
+
+.sprite-icon-megaphone_hover {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -826px;
+}
+
+.sprite-icon-phone {
+    width: 22px;
+    height: 23px;
+    background-position: -20px -887px;
+}
+
+.sprite-icon-phone_hover {
+    width: 22px;
+    height: 23px;
+    background-position: -20px -950px;
+}
+
+.sprite-icon-question {
+    width: 26px;
+    height: 26px;
+    background-position: -20px -1013px;
+}
+
+.sprite-icon-question_hover {
+    width: 26px;
+    height: 26px;
+    background-position: -20px -1079px;
+}
+
+.sprite-icon-twitter {
+    width: 20px;
+    height: 17px;
+    background-position: -20px -1145px;
+}
+
+.sprite-icon-twitter_hover {
+    width: 20px;
+    height: 17px;
+    background-position: -20px -1202px;
+}
+
+.sprite-icon-vk {
+    width: 26px;
+    height: 14px;
+    background-position: -20px -1259px;
+}
+
+.sprite-icon-vk_hover {
+    width: 26px;
+    height: 14px;
+    background-position: -20px -1313px;
+}
+
+.sprite-icon-webcam {
+    width: 22px;
+    height: 26px;
+    background-position: -20px -1367px;
+}
+
+.sprite-icon-webcam_hover {
+    width: 22px;
+    height: 26px;
+    background-position: -20px -1433px;
+}
+
+.sprite-icon-write {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -1499px;
+}
+
+.sprite-icon-write_hover {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -1562px;
+}
+
+.sprite-menu-circle {
+    width: 42px;
+    height: 42px;
+    background-position: -20px -1625px;
+}

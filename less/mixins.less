@@ -1,0 +1,25 @@
+.font-bold() {
+	font-family: "HelveticaNeueCyr Bold", Arial, sans-serif;
+	// font-weight: bold;
+}
+
+.icon(@width, @height, @position) {
+	display: block;
+	width: @width;
+	height: @height;
+
+	background-image: url("../img/header-icons-sprite.png");
+	background-repeat: no-repeat;
+	background-position: -20px @position;
+}
+
+.visualy-hidden() {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}

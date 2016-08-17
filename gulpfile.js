@@ -91,6 +91,7 @@ gulp.task("copy", function() {
 		"img/**",
 		"js/**",
 		"php/**",
+		"video/**",
 		"*.html"
 	], {
 		base: "."
