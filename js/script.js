@@ -116,7 +116,7 @@ $(document).ready(function() {
 			// Запрещаем обработку события браузером по умолчанию
 			if (event.preventDefault) event.preventDefault();
 			event.returnValue = false;
-			if(delta == -1) {
+			if(delta < 0) {
 				scaleAngle -= 45;
 				activeProj.removeClass("project__item--active").addClass("project__item--top").prev().removeClass("project__item--top").addClass("project__item--hidden-top").next().next().removeClass("project__item--bottom").addClass("project__item--active").next().removeClass("project__item--hidden-bottom").addClass("project__item--bottom");
 				activeProj = $(".project__item--active");
@@ -148,7 +148,7 @@ $(document).ready(function() {
 			// Запрещаем обработку события браузером по умолчанию
 			if (event.preventDefault) event.preventDefault();
 			event.returnValue = false;
-			if(delta == 1) {
+			if(delta > 0) {
 				scaleAngle += 45;
 				activeProj.removeClass("project__item--active").addClass("project__item--bottom").prev().removeClass("project__item--top").addClass("project__item--active").prev().removeClass("project__item--hidden-top").addClass("project__item--top");
 				activeProj = $(".project__item--active");
@@ -173,7 +173,7 @@ $(document).ready(function() {
 			// Запрещаем обработку события браузером по умолчанию
 			if (event.preventDefault) event.preventDefault();
 			event.returnValue = false;
-			if(delta == -1) {
+			if(delta < 0) {
 				scaleAngle -= 45;
 				activeProj.removeClass("project__item--active").addClass("project__item--top").next().removeClass("project__item--bottom").addClass("project__item--active").next().removeClass("project__item--hidden-bottom").addClass("project__item--bottom");
 				activeProj = $(".project__item--active");
@@ -185,10 +185,4 @@ $(document).ready(function() {
 			console.log(delta); // Выводим направление колёсика мыши
 		};
   };
-
-	// $(window).addEventListener("") {
-		// scaleAngle += 45;
-		// mask.css("transform", "rotate("+scaleAngle+")");
-	// 	console.log("scrolling");
-	// });
 });
