@@ -607,7 +607,6 @@ body {
   transform: rotate(0deg);
 }
 .project__image {
-  position: relative;
   display: block;
   height: 100%;
   overflow: hidden;
